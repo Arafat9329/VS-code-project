@@ -4,6 +4,8 @@
   "main": "index.js",
   "scripts": {
     "tests": "npx playwright test",
+    "test:specific": "npx playwright test --grep paywrightIntro.spec.js",
+    "test:tag": "npx playwright test --grep @google.js",
     "report": "npx playwright show-report"
   },
   "keywords": [],
