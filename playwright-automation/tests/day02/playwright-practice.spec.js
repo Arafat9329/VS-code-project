@@ -19,5 +19,5 @@ test("Simple Playwrite Automation Test @openYoutube", async ({ page }) => {
     "//*[@id='items']//ytd-video-renderer[1]"
   );
   await firstResult.click();
-  await page.waitForTimeout(10);
+  await page.waitForTimeout(1000);
 });
